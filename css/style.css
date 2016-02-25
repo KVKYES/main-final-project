@@ -41,26 +41,33 @@ html {
 }
 
 body {
-    background-color: #A6DDE8;
+    background-color: #57FEFF;
 }
 
 /*****************   Custom CSS Styling  **************************/
 
 
 .flex-container {
+	overflow: hidden;
 	display: flex;
 	justify-content: center;
-}
-
-.logo {
-	font-family: 'Work Sans', sans-serif;
-	font-size: 200px;
-	font-weight: 100;
-	color: #CAEAF0;
 	text-align: center;
 }
 
-.img-test {
+.logo {
+	overflow: hidden;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 300px;
+	font-weight: 100;
+	color: #CCFFFF;
+	text-align: center;
+/*	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	margin: -100px 0 0 -150px;*/
+}
+
+.logo-test {
   	display: block;
     margin: 0 auto;
 }
@@ -70,24 +77,59 @@ body {
 	text-decoration: none;
 	list-style-type: none;
 	text-align: center;
+/*	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	margin: -100px 0 0 -150px;*/
 }
 
 .nav-aTags {
 	display: inline-block;
+	font-size: 20px;
+	align-content: center;
 	text-decoration: none;
-	list-style-type: none;
-	text-align: center;
+    list-style-type: none;
 	color: #6D6E71;
 }
 
+	.nav-aTags a.illustration.html span {
+	color: #50EBEC;
+	}
+
+	.nav-aTags a.web.html span {
+	color: #50EBEC;
+	}
+
+	.nav-aTags a.bands.html span {
+	color: #50EBEC;
+	}
+
+	.nav-aTags a.resume.html span {
+	color: #50EBEC;
+	}
+
 .grid-container {
 	height: 550px;
-	background-color: red;
 	width: 90%;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	margin: -100px 0 0 -150px;
 }
 
 .removeDefaultUnderline {
 	text-decoration: none;
+}
+
+.box {
+	height: 90px;
+	width: 90px;
+	border: solid 1px #000;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 
 
