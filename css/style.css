@@ -52,35 +52,42 @@ body {
 	justify-content: center;
 }
 
+.logo {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 200px;
+	font-weight: 100;
+	color: #CAEAF0;
+	text-align: center;
+}
+
+.img-test {
+  	display: block;
+    margin: 0 auto;
+}
+
+.nav {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+}
+
+.nav-aTags {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	color: #6D6E71;
+}
+
 .grid-container {
 	height: 550px;
 	background-color: red;
 	width: 90%;
 }
 
-
-.logo {
-	font-size: 3rem;
-	color: red;
-	text-align: center;
-}
-
-.nav-horizontal {
-	display: inline-block;
-}
-
-.nav-aTags {
-	display: inline-block;
-}
-
 .removeDefaultUnderline {
 	text-decoration: none;
-}
-
-
-.img-test {
-  	display: block;
-    margin: 0 auto;
 }
 
 
