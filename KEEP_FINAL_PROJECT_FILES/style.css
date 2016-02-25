@@ -1,0 +1,162 @@
+/*
+Project Name: KVKYES website
+Client: Kelley Vaughn-Kauffman
+Author: Kelley Vaughn-Kauffman
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image 
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+.clear-parent {
+  overflow: hidden;
+}
+
+
+.bo
+
+/* CENTER LOGO and NAV BAR */
+
+
+.kvkyes-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px;
+  margin-left: -250px;
+
+}
+
+.nav-container {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  float: left;
+  width: 700px;
+  text-decoration: none;
+}
+
+.navs {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: #939598;
+}
+
+
+.nav-aTags {
+    display: block;
+    color: #939598;
+    text-decoration: none;
+}
+
+  a:link {
+      color: #ED1CA8;
+      text-decoration: none;
+  }
+  a:hover {
+      color: #99FF00;
+      text-decoration: none;
+  }
+  a:visited {
+      color: #ED1CA8;
+      text-decoration: none;
+  }
+
+
+/* PORTFOLIO GRID */
+
+.grid-container {
+  width: 600px;
+  height: 600%;
+  margin: 0 auto;
+  border-width: 2px;
+  border-color: black;
+  }
+
+.row-1 {
+ margin-bottom: 20px;
+}
+
+.thumb1 .left {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+  margin-right: 20px;
+}
+
+.thumb2 .center {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+  margin-right: 20px;
+}
+
+.thumb3 .right {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+  margin-left: 20px;
+}
+
+.test {
+  color: red;
+  border: 1px solid black;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.bgcolor {
+    background-color: #BDEDFF;
+    height: 150vh;
+}
+
