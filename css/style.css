@@ -81,7 +81,7 @@ body {
 
 .nav {
 	display: inline-block;
-	overflow: hidden;
+	position: relative;
 	text-decoration: none;
 	list-style-type: none;
 	text-align: center;
@@ -109,7 +109,24 @@ body {
    	color: #B6B6B4;
 }
 
-	.nav-aTags a.illustration.html span {
+a:link {
+    background-color: transparent;
+}
+
+a:visited {
+    background-color: transparent;
+}
+
+a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+a:active {
+    background-color: transparent;
+}
+
+	/*.nav-aTags a.illustration.html span {
 	color: #50EBEC;
 	}
 
@@ -123,7 +140,8 @@ body {
 
 	.nav-aTags a.resume.html span {
 	color: #50EBEC;
-	}
+	}*/
+
 
 	.removeDefaultUnderline {
 	text-decoration: none;
@@ -136,16 +154,17 @@ body {
 	a {
     display: block;
     padding: 8px;
+    text-align: center;
 }
 
 /*PORTFOLIO GRID*/
 
 .grid-container {
+	position: absolute;
 	height: 550px;
 	width: 90%;
-	position: absolute;
 	top: 50%;
-  	left: 50%;
+  	left: 39%;
   	margin: -100px 0 0 -150px;
 }
 
@@ -160,4 +179,37 @@ body {
 	margin-left: 30px;
 }
 
+/*DESIGN PAGE*/
+
+
+.categories{
+	margin: 20px;
+	margin-top: 50px;
+}
+
+
+.categories-aTags {
+	font-size: 20px;
+	align-content: center;
+	text-decoration: none;
+    list-style-type: none;
+    color: #FF8040;
+}
+
+.categories-aTags-light{
+	font-size: 20px;
+	align-content: center;
+	text-decoration: none;
+    list-style-type: none;
+    color: #FF8040;
+}
+
+.descriptions{
+	height: 550px;
+	width: 60%;
+	font-size: 18px;
+	text-align: justify;
+	justify-content: space-between;
+	color: #2C3539;
+}
 
