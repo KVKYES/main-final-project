@@ -78,6 +78,8 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	text-decoration: none;
 	list-style-type: none;
+	border-bottom: 2px white;
+	margin-bottom: 30px;
 }
 
 .nav-aTags {
@@ -132,19 +134,19 @@ a {
 
 .box {
 	height: 250px;
-	width: 300px;
+	width: 350px;
 	border: solid 1px #000;
 	display: inline-block;
-	float: center;
-    margin: 8px 8px 0 0;
+	float: left;
+    margin: 17px 17px 0 0;
     text-align: justify;
     font-size: 12px;
 }
 
-.box img {
+/*.box img {
 	display: block;
 	margin: 0 auto;
-}
+}*/
 
 
 
@@ -166,20 +168,17 @@ a {
 	text-align:center;
 	text-decoration: none;
     list-style-type: none;
-    color: #FF8040;
+    color: 848482;
 }
 
-.categories-aTags-light{
+/*.categories-aTags-light{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	text-align:center;
 	text-decoration: none;
     list-style-type: none;
-    color: #FF8040;
-}
-
-/*can't figure out which css areas are
-styling my p tags and descriptions, man.*/
+    color: 848482;
+}*/
 
 .descriptions{
 	font-family: 'Roboto', sans-serif;
